@@ -51,7 +51,7 @@ body{
     padding: 10px;
 }
 
-.main button {
+button {
     height: 35px;
     background-color: black;
     color: white;
@@ -59,8 +59,34 @@ body{
     padding: 0 20px;
   }
 
-  .main button:hover {
+button:hover {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
   }
+
+/* About me Page */
+.section{
+    display: flex;
+    position: relative;
+    /* left: 50%; */
+    justify-content: flex-end;
+    top: 117.91px;
+    /* padding: 10px; */
+    margin: 0px;
+
+}
+.leftsection{
+    width: 33%;
+    text-align: start;
+    padding: 10px 70px 0 0;
+    display: inline-block;
+
+}
+.rightsection{
+    background-image: url(https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y);
+    background-size: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
