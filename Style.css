@@ -15,7 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #eee;
+    background-color: aliceblue;
     padding: 10px;
     z-index: 2;
 }
@@ -69,10 +69,8 @@ button:hover {
 .section{
     display: flex;
     position: relative;
-    /* left: 50%; */
     justify-content: flex-end;
     top: 117.91px;
-    /* padding: 10px; */
     margin: 0px;
 
 }
@@ -90,3 +88,49 @@ button:hover {
     background-repeat: no-repeat;
 }
 
+/* Services Page */
+
+.servicesblock{
+    background-image: url(./Picture1.jpg) ;
+    background-size: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 117.91px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.contain{
+    display: flex;
+    position: relative;
+    width: 75%;
+    flex-direction: column;
+}
+.select{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+.select p{
+    padding: 10px;
+}
+.personal{
+    display: flex;
+    justify-content: space-around;
+}
+.personal > div{
+    background-color: aliceblue;
+    padding: 2em;
+    margin: 1em;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
