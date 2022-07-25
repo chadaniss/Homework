@@ -2,6 +2,7 @@ html{
     margin: 0;
     box-sizing: border-box;
     font-family: avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    /* scroll-behavior: smooth; */
 }
 body{
     margin: auto;
@@ -72,6 +73,7 @@ button:hover {
     justify-content: flex-end;
     top: 117.91px;
     margin: 0px;
+    height: 900px;
 
 }
 .leftsection{
@@ -111,9 +113,14 @@ button:hover {
    display: flex;
    justify-content: center;
    margin-top: 50px;
+   margin-bottom: 50px;
 }
-.select p{
+.select a{
     padding: 10px;
+    text-decoration: none;
+    color: rgb(49, 45, 45);
+    border-bottom: 1px solid silver;
+    cursor: pointer;
 }
 .personal{
     display: flex;
